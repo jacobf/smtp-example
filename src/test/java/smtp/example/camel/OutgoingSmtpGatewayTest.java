@@ -1,4 +1,4 @@
-package smtp.example;
+package smtp.example.camel;
 
 import org.testng.annotations.Test;
 
