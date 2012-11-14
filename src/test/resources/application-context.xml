@@ -2,13 +2,20 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mail="http://www.springframework.org/schema/integration/mail"
+       xmlns:int="http://www.springframework.org/schema/integration"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/context
-       http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+       http://www.springframework.org/schema/context/spring-context-3.1.xsd
+       http://www.springframework.org/schema/integration/mail
+       http://www.springframework.org/schema/integration/mail/spring-integration-mail-2.0.xsd
+       http://www.springframework.org/schema/integration
+       http://www.springframework.org/schema/integration/spring-integration.xsd">
 
     <context:annotation-config/>
 
     <context:component-scan base-package="smtp.example.spring" />
 
+    <import resource="spring-integration.xml"/>
 </beans>

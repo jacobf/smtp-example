@@ -4,3 +4,7 @@
 smtp.connection=smtp://[username]@smtp.[host]:[port]?password=[password]
 mail.to=username@examplehost.com
 mail.from=username@sendinghost.com
+mail.smtp.host=[hostname]
+mail.smtp.port=[port]
+mail.smtp.user=username@examplehost.com
+mail.password=password
