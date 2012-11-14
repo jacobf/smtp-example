@@ -1,4 +1,4 @@
-package epost.examples;
+package smtp.example;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.ProducerTemplate;
