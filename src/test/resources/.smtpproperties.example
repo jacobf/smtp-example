@@ -1,3 +1,6 @@
+# place this file in your home dir and remove the .example extension
+# the values in [ ] should be replaced with the values of your smtp-provider
+# mail.to and mail.from should contain valid mail-addresses
 smtp.connection=smtp://[username]@smtp.[host]:[port]?password=[password]
 mail.to=username@examplehost.com
 mail.from=username@sendinghost.com
