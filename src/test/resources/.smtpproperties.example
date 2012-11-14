@@ -1,0 +1,3 @@
+smtp.connection=smtp://[username]@smtp.[host]:[port]?password=[password]
+mail.to=username@examplehost.com
+mail.from=username@sendinghost.com
